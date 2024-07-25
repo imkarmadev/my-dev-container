@@ -1,6 +1,6 @@
 {
 	"build": { "dockerfile": "Dockerfile" },
-	"postStartCommand": "bash .devcontainer/post-runner.sh",
+	"postCreateCommand": "bash .devcontainer/post-runner.sh",
 	"features": {
 	  "ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
