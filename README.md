@@ -1,3 +1,7 @@
+> [!NOTE]
+>
+> This `Devcontainer` I made for myself, so if you like it you can use it, if you don't like - no use. It provide As It Is. But PR's with help or good suggestion are wellcom xD. Peace and Prosperity my friend. 
+
 # My vscode devcontainer
 
 ## Inside
@@ -16,3 +20,8 @@ Develop `tauri` or `fyne.io` app on windows with out install any "hard" deps on 
 ## After Build
 Run all `*.sh` script in `.devcontainer/scripts` folder
 As example I login to `Atuin` with creds from `.env` file (no exist create for your self xD)
+
+## TODO
+- [ ] Add all hooks runner (postCreateCommand, postAttachCommand etc.)
+- [ ] Cut on logic slice `Dockerfile` to easy add or remove needed tools
+- [ ] Add VS Code extansions to `devcontainer.json`
