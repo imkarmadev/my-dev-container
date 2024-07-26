@@ -2,7 +2,9 @@
 	"build": { "dockerfile": "Dockerfile" },
 	"postCreateCommand": "bash .devcontainer/post-runner.sh",
 	"features": {
-	  "ghcr.io/devcontainers/features/desktop-lite:1": {}
+	  "ghcr.io/devcontainers/features/desktop-lite:1": {},
+	  "ghcr.io/devcontainers/features/rust:1": {},
+	  "ghcr.io/devcontainers/features/go:1": {}
 	},
 	"forwardPorts": [5901, 6080],
 	"portsAttributes": {
