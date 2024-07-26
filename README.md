@@ -23,5 +23,5 @@ As example I login to `Atuin` with creds from `.env` file (no exist create for y
 
 ## TODO
 - [ ] Add all hooks runner (postCreateCommand, postAttachCommand etc.)
-- [ ] Cut on logic slice `Dockerfile` to easy add or remove needed tools
+- [x] Cut on logic slice `Dockerfile` to easy add or remove needed tools
 - [ ] Add VS Code extansions to `devcontainer.json`
